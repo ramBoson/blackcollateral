@@ -139,7 +139,7 @@
     .btn{
         min-width: 140px;
         font-size: 14px;
-        padding: 13px 35px 12px;
+        padding: 11px 20px 11px;
     }
 }
 
@@ -166,5 +166,13 @@
     }
     .social-media a{
         margin: 2px 8px;
+    }
+    .header-logo img{
+        max-width: 95px;
+    }
+    .home-banner .btn-blue{
+        min-width: 15   0px;
+        font-size: 12px;
+        padding: 12px 20px 12px 20px;
     }
 }

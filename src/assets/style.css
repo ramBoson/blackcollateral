@@ -96,6 +96,17 @@ h6{
     box-shadow: none !important;
 }
 
+.btn-sm{
+    line-height: 1;
+    min-width: auto;
+    border-radius: 3px;
+    padding: 13px 25px 12px 25px;
+}
+
+.btn-blue{
+    background-color: #5bc0de;
+}
+
 .btn-outline-white{
     background-color: transparent;
     border: 2px solid #fff;
@@ -128,6 +139,10 @@ a{
     max-width: 1680px;
 }
 
+.header-logo img{
+    width: 80px;
+}
+
 .footer{
     padding: 56px 0 20px;
 }
@@ -155,6 +170,10 @@ a{
 .home-banner{
     padding-top: 30px;
     padding-bottom: 80px;
+}
+.home-banner .btn{
+    margin-right: 8px;
+    margin-top: 8px;
 }
 .home-banner h4{
     max-width: 85%;
@@ -197,7 +216,13 @@ a{
 }
 
 .card-info img{
-    margin-bottom: 15px;
+    top: 0;
+    position: relative;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.card-info:hover img{
+    top: -8px;
 }
 .card-info h5{
     text-transform: uppercase;
@@ -293,4 +318,49 @@ a{
 .my-80{
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+.road-map{
+    background-image: url('../assets//images/road-map-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle, .dropdown-item.active, .dropdown-item:active{
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.dropdown-menu{
+    min-width: 100%;
+    padding-bottom: 0;
+    background-color: #141414;
+}
+.dropdown-menu a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    font-weight: 400;
+    padding: 10px 15px;
+}
+.dropdown-menu a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.dropdown-toggle:after{
+    margin-left: 10px;
+}
+.dropdown:hover .btn{
+    color: #fff;
+    border-color: #000;
+    background-color: #141414;
+    box-shadow: 0 0 13px 0 rgb(128 128 128) !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
 }

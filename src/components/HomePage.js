@@ -6,9 +6,9 @@ import Banner from './snippets/Banner'
 import Addresses from './snippets/BlackAddresses'
 import About from './snippets/AboutBlack'
 import Feature from './snippets/Features'
-import CompetitiveAnalysis from './snippets/CompetitiveAnalysis'
+// import CompetitiveAnalysis from './snippets/CompetitiveAnalysis'
 import Roadmap from './snippets/Roadmap'
-import Team from './snippets/Team'
+import ProtocolsDynamics from './snippets/ProtocolsDynamics'
 
 function HomePage() {
     React.useEffect(() => {
@@ -18,12 +18,12 @@ function HomePage() {
     return (
         <Layout>
             <Banner />
-            <Addresses />
             <About />
             <Feature />
-            <CompetitiveAnalysis />
+            <Addresses />
+            {/* <CompetitiveAnalysis /> */}
             <Roadmap />
-            <Team />
+            <ProtocolsDynamics />
         </Layout>
     );
 }

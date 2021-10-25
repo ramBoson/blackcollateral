@@ -4,7 +4,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 const Roadmap = () => {
     return (
-        <div className="py-100 bg-black">
+        <div className="py-100 road-map bg-black">
             <Container>
                 <div className="section-title text-center text-uppercase" data-aos="fade-up">
                     <h2>Roadmap</h2>

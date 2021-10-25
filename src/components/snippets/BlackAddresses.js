@@ -11,7 +11,7 @@ import AddressIcon6 from '../../assets/images/address_icon6.svg'
 const Addresses = () => {
     return (
         <div className="py-100 bg-black text-center">
-            <Container>
+            <Container fluid={'xl'}>
                 <div className="section-title text-uppercase" data-aos="fade-up">
                     <h2>WHAT PROBLEMS DOES BLACK ADDRESSES?</h2>
                 </div>
@@ -20,29 +20,29 @@ const Addresses = () => {
                     <Col className="mb-5" xs={12} md={6} lg={4} data-aos="fade-up" data-aos-delay="100">
                         <div className="card-info px-1">
                             <img src={AddressIcon1} alt="icon" />
-                            <h5>BITCOIN CORRELATION</h5>
-                            <p>The entire ethos of BLACK is a paradigm shift from price-based trading strategies to time-based trading strategies.</p>
+                            <h5>WHALE-PROOF DEFI FARMING</h5>
+                            <p>Whales usually eat a high percentage of all DeFi farming benefits than average users due to their extensive portfolio allocation. Black protocol fundamentals potentially limit the staking percentage across all wallets, and as a result, the benefits are evenly distributed to the users.</p>
                         </div>
                     </Col>
                     <Col className="mb-5" xs={12} md={6} lg={4} data-aos="fade-up" data-aos-delay="200">
                         <div className="card-info px-1">
                             <img src={AddressIcon2} alt="icon" />
-                            <h5>TIME BOUND SELL RATIO</h5>
-                            <p>BLACK controls the time-demand equilibrium every 24 hours using the Time-Lock mechanism tied to the number of tokens each investor holds in their wallets</p>
+                            <h5>BITCOIN CORRELATION</h5>
+                            <p>The entire ethos of BLACK is a paradigm shift from price-based trading strategies to time-based trading strategies.</p>
                         </div>
                     </Col>
                     <Col className="mb-5" xs={12} md={6} lg={4} data-aos="fade-up" data-aos-delay="300">
                         <div className="card-info px-1">
                             <img src={AddressIcon3} alt="icon" />
-                            <h5>DIVERSIFIED PORTFOLIO</h5>
-                            <p>BLACK offers an entirely different model to minimize portfolio classification risks, making it one of the best low-risk strategies for long-term asset holders who want to bet against bitcoin</p>
+                            <h5>TIME BOUND SELL RATIO</h5>
+                            <p>BLACK controls the time-demand equilibrium every 24 hours using the Time-Lock mechanism tied to the number of tokens each investor holds in their wallets</p>
                         </div>
                     </Col>
                     <Col className="mb-5" xs={12} md={6} lg={4} data-aos="fade-up" data-aos-delay="100">
                         <div className="card-info px-1">
                             <img src={AddressIcon4} alt="icon" />
-                            <h5>INFLATION HEDGE</h5>
-                            <p>BLACK ensures the demand will rise linearly via burn mechanics and ALP </p>
+                            <h5>DIVERSIFIED PORTFOLIO</h5>
+                            <p>BLACK offers an entirely different model to minimize portfolio classification risks, making it one of the best low-risk strategies for long-term asset holders who want to bet against bitcoin</p>
                         </div>
                     </Col>
                     <Col className="mb-5" xs={12} md={6} lg={4} data-aos="fade-up" data-aos-delay="200">
